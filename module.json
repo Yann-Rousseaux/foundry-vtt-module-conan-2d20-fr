@@ -1,0 +1,42 @@
+{
+  "name": "conan2d20-french",
+  "title": "Robert E. Howard's CONAN French Localization",
+  "description": "Localisation française pour le jeu CONAN de Robert E. Howard. Voir la page du projet pour plus de détails.<br /> --- <br />French Localization for Robert E. Howard's Conan 2D20. See the Project Page for further details.",
+  "author": "Jerome Lavoie",
+  "version": "1.0.1",
+  "compatibility": {
+    "minimum": "10",
+    "verified": "10.291"
+  },
+  "system": [
+    "conan2d20"
+  ],
+  "relationships": {
+    "systems": [{
+      "id": "conan2d20"
+    }],
+    "requires": [
+      {
+        "id": "babele"
+      },
+      {
+        "id": "lib-wrapper"
+      }
+    ]
+  },
+  "scripts": [],
+  "styles": [],
+  "packs": [],
+  "languages": [
+    {
+      "lang": "fr",
+      "name": "Français",
+      "path": "lang/fr.json"
+    }
+  ],
+  "url": "https://gitlab.com/fvtt-modiphius/foundryvtt-conan2d20-french/",
+  "bugs": "https://gitlab.com/fvtt-modiphius/foundryvtt-conan2d20-french/-/issues",
+  "allowBugReporter": false,
+  "manifest": "https://gitlab.com/fvtt-modiphius/foundryvtt-conan2d20-french/-/jobs/artifacts/master/raw/module.json?job=build",
+  "download": "https://gitlab.com/fvtt-modiphius/foundryvtt-conan2d20-french/-/jobs/artifacts/master/raw/conan2d20-french.zip?job=build"
+}
