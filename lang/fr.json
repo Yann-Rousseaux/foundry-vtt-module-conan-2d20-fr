@@ -1,4 +1,5 @@
 {
+   "Biography":"Biographie",
    "CONAN":{
       "title":"CONAN de Robert E. Howards",
       "fulltitle":"CONAN de Robert E. Howard: Aventures épiques d'un âge oublié.",
@@ -67,8 +68,7 @@
       "attackRollLabel":"Attaque",
       "availability":"Disponibilité",
       "CHATOPT":{
-         "triggerReroll":"Relancer la sélection",
-         "momentumSpendImmediate":"Dépenser l'héroïsme généré"
+         "triggerReroll":"Relancer la sélection"
       },
       "biographyLabel":"Biographie",
       "movement":"Mouvement",
@@ -519,7 +519,7 @@
       "coverage":{
          "head":"Tête",
          "torso":"torse",
-         "larm":"Brase g",
+         "larm":"Bras g",
          "rarm":"Bras d",
          "lleg":"Jambe g",
          "rleg":"Jambe d"
