@@ -326,8 +326,10 @@
       "fatigueTitle":"Fatigue : Chaque point de Fatigue réduit votre Vigueur maximale de 1, ce qui vous fatigue plus vite au combat. Si votre Vigueur maximale est réduite à 0, alors vous êtes épuisé au-delà de toute capacité à continuer, et vous tomberez immédiatement inconscient. Si vous vous fatiguez encore une fois que vous avez atteint la Vigueur maximale 0, vous mourrez.",
       "fortuneLabel":"Fortunes",
       "fortuneSpendLabel":"Dépenser une Fortune",
+      "fortuneCurrentLabel": "Actuellle",
       "healthPhysical":"Physique",
       "healthVigor":"Vigueur",
+      "healthVigorSubCur": "Actuelle",
       "healthVigorTitle":"Vigueur représente l'endurance du personnage, sa résistance et sa capacité à supporter des blessures mineures, des coupures, des éraflures, des bleus et des abrasions.",
       "healthVigorCurrent":"Actuelle",
       "healthVigorMax":"Max",
@@ -513,8 +515,8 @@
          "torso":"torse",
          "larm":"Brase gauche",
          "rarm":"Bras droit",
-         "lleg":"Jambe gauche",
-         "rleg":"Jambe droite"
+         "lleg":"Jambe gau.",
+         "rleg":"Jambe dro."
       },
       "damageLabel":"Dégât",
       "damageTypeLabel":"Type de dégât",
