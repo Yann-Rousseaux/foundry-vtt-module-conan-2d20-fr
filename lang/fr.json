@@ -80,8 +80,8 @@
       "characterDescPlaceholder":"Description",
       "attributes":{
          "agi":"Agilité",
-         "awa":"Vigilance",
-         "bra":"Muscle",
+         "awa":"Perception",
+         "bra":"Constitution",
          "coo":"Coordination",
          "int":"Intelligence",
          "per":"Personnalité",
@@ -219,8 +219,8 @@
       "enchantmentVolatilityLabel":"Volatilité",
       "skillShortLabel":"Compétence",
       "skillExpertiseShortLabel":"Expertise",
-      "skillFocusShortLabel":"Focus",
-      "skillTNShortLabel":"TN",
+      "skillFocusShortLabel":"Conc.",
+      "skillTNShortLabel":"VR",
       "skillTrainedLabel":"Formé",
       "skillUnrainedLabel":"Non formé",
       "skillRollDifficultyLabel":"Difficulté",
@@ -243,8 +243,8 @@
       "experienceEarnedLabel": "Acquise",
       "experienceSpentLabel": "Utilisée",
       "experienceRemainingLabel": "Restante",
-      "focus":"Focus",
-      "tn":"TN",
+      "focus":"Conc.",
+      "tn":"VR",
       "talentTreeLabel": "Arbre",
       "talentTreeEmptyPrompt": "Déposer les talents ici pour les ajouter au personnage.",
       "transpoAnimals":{
@@ -473,7 +473,7 @@
          "heavyarmor":"Armure lourde",
          "vheavyarmor":"Armure très lourde"
       },
-      "armorQualitiesActiveLabel":"Qualités de l'armure active",
+      "armorQualitiesActiveLabel":"Qualités armure active",
       "attackHeader":"Attaque",
       "attacksLabel":"Attaques",
       "attacks":{
