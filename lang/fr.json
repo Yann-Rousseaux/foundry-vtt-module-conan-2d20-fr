@@ -7,7 +7,8 @@
       "momentum":"Héroïsme",
       "doom":"Fatalité",
       "Doom": "Fatalité",
-      "Momentum": "Fatalité",
+      "Momentum": "Héroïsme",
+      "DicePurchase": "Achat de dés",
       "name":"Nom",
       "actionPassive":"Action passive",
       "actionFree":"Action libre",
@@ -514,6 +515,7 @@
          "undead":"Mort-vivant"
       },
       "npcSkillRollAttributeLabel":"Attribut",
+      "skillRollAttributeLabel": "Attribut",
       "baseDamageLabel":"Dégât de base",
       "coverageLabel":"Couverture",
       "coverage":{
