@@ -156,10 +156,10 @@
       "expertiseFields":{
          "mov":"Mouvement",
          "cmb":"Combat",
-         "frt":"Fortitude",
+         "frt":"Résilience",
          "knw":"Connaissance",
-         "scl":"Société",
-         "sns":"Senses"
+         "scl":"Social",
+         "sns":"Sens"
       },
       "effectsLabel":"Effets",
       "enchantmentCoverLabel":"Abri",
@@ -503,7 +503,7 @@
       "npcAttackNameHeader":"Nom de l'attaque",
       "npcActionTypes":{
          "abilities":"Capacités spéciales",
-         "doom":"Coût en Fatalité"
+         "doom":"Dépense de Fatalité"
       },
       "npcActionTypeLabel":"Type d'action",
       "npcCategoriesLabel":"Catégories",
@@ -790,7 +790,7 @@
          "sections":{
             "attributes":"Attributs",
             "fields":"Champs d'expertise",
-            "health":"Stress et absorption",
+            "health":"Endurance et encaissement",
             "attacks":"Attaques",
             "abilities":"Capacités spéciales",
             "doomspends":"Dépenses de ",
