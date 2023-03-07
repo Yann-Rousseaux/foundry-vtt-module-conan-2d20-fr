@@ -502,18 +502,20 @@
       },
       "npcAttackNameHeader":"Nom de l'attaque",
       "npcActionTypes":{
-         "abilities":"Abilités spéciales",
-         "doom":"Dépense de Fatalité"
+         "abilities":"Capacités spéciales",
+         "doom":"Coût en Fatalité"
       },
       "npcActionTypeLabel":"Type d'action",
       "npcCategoriesLabel":"Catégories",
       "npcCategories":{
-         "minion":"Laquais",
-         "toughened":"Endurci",
+         "minion":"Sbire",
+         "toughened":"Coriace",
          "nemesis":"Nemesis",
          "horror":"Horreur",
          "undead":"Mort-vivant"
       },
+      "npcIsMobLabel": "Foule/Équipe",
+      "npcMobCountLabel": "Nombre",
       "npcSkillRollAttributeLabel":"Attribut",
       "skillRollAttributeLabel": "Attribut",
       "baseDamageLabel":"Dégât de base",
@@ -651,16 +653,17 @@
       "talentSummary":"Sommaire du talent",
       "talentTypeLabel":"Type de talent",
       "talentTypes":{
-         "homeland":"Talents de terre natale",
+         "homeland":"Talents d'origine'",
          "caste":"Talents de caste",
          "bloodline":"Talents de lignée",
          "education":"Talents d'éducation",
          "nature":"Talents de nature",
          "archetype":"Talents d'archétype",
+         "skill": "Talents de compétence",
          "other":"Autres Talents"
       },
       "talentActionCategoryLabel":"Catégories d'actions",
-      "talentHomelandHeader":"Terre natale",
+      "talentHomelandHeader":"Origine",
       "talentCasteHeader":"Caste",
       "talentBloodlineHeader":"Lignée",
       "talentEducationHeader":"Éducation",
@@ -789,7 +792,7 @@
             "fields":"Champs d'expertise",
             "health":"Stress et absorption",
             "attacks":"Attaques",
-            "abilities":"Abilités spéciales",
+            "abilities":"Capacités spéciales",
             "doomspends":"Dépenses de ",
             "notes":"Notes",
             "optional":"Optionnel"
