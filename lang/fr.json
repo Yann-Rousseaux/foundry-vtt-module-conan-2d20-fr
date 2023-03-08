@@ -18,16 +18,16 @@
       "actions":{
          "free":{
             "adj":"Ajuster",
-            "dro":"Laisser tomber",
-            "pro":"Se coucher",
-            "sim":"Tâche facile",
+            "dro":"Lâcher un objet",
+            "pro":"Se jeter au sol",
+            "sim":"Tâche simple",
             "spe":"Parler"
          },
          "minor":{
-            "cle":"Libérer",
-            "dra":"Sortir un objet",
+            "cle":"Supprimer",
+            "dra":"Prendre un objet",
             "mov":"Se déplacer",
-            "reg":"Récupérer la garde",
+            "reg":"Se remettre en garde",
             "sta":"Se relever"
          },
          "reaction":{
@@ -36,17 +36,17 @@
             "ret":"Riposter"
          },
          "standard":{
-            "ass":"Aider",
-            "att":"Attaquer",
+            "ass":"Aide",
+            "att":"Attaque",
             "bra":"Prémunir",
-            "exp":"Exploiter",
+            "exp":"Exploitation",
             "pas":"Passer",
-            "rea":"Préparer",
-            "rec":"Récupérer",
-            "ski":"Test de compétences",
-            "spr":"Courir",
-            "tre":"Traiter",
-            "wit":"Se retirer"
+            "rea":"Prêt",
+            "rec":"Récupération",
+            "ski":"Test de compétence",
+            "spr":"Sprint (*M)",
+            "tre":"Traitement",
+            "wit":"Recul (*M)"
          }
       },
       "actionsStandardActionHeader":"Actions normales",
@@ -117,11 +117,12 @@
       "conditions":{
          "bli":"Aveugle",
          "bur":"Enflammé X",
-         "daz":"Étourdi",
+         "daz":"Sonné",
          "dea":"Sourd",
          "hin":"Entravé",
          "poi":"Empoisonné",
-         "sta":"Hébété"
+         "sta":"Désorienté",
+         "pro": "Enclin/Prédisposé"
       },
       "skills":{
          "skills":"Compétences",
@@ -149,7 +150,7 @@
          "per":"Persuasion",
          "soc":"Société",
          "dis":"Discipline",
-         "sor":"Sorcelerie"
+         "sor":"Sorcellerie"
       },
       "difficultyLabel":"Difficulté",
       "difficultyIncludesLabel":"Difficulté inclus",
@@ -301,7 +302,8 @@
       },
       "transpoPassengerCapLabel":"Capacité de passagers",
       "transpoPassengerLabel":"Passagers",
-      "transpoStowageLabel":"Cargo",
+      "transpoStowageLabel":"Transport",
+      "transpoStowageCapLabel": "Capacité",
       "transpoTypeLabel":"Type",
       "targetNumber":"Nombre cible",
       "sectionTalents":"Talents",
@@ -316,8 +318,8 @@
       "backgroundNature":"Nature",
       "backgroundEducation":"Éducation",
       "backgroundStory":"Histoire",
-      "backgroundTrait":"Traits",
-      "backgroundWarStory":"Histoire de guerre",
+      "backgroundTrait":"Trait",
+      "backgroundWarStory":"Faits de guerre",
       "backgroundLanguages":"Langages",
       "backgroundAge":"Âge",
       "backgroundGender":"Genre",
@@ -354,7 +356,8 @@
       "healthCourageTitle":"Le courage fournit un encaissement persistant, servant de base à la durabilité mentale du personnage",
       "standing":"Position sociale",
       "renown":"Renom",
-      "upkeep":"Maintenance",
+      "upkeep":"Entretien",
+      "upkeepValueTitle": "Coût de l'entretien en Or du Personnage Joueur",
       "charGold":"Monnaie",
       "fortune":"Fortune",
       "itemName":"Nom",
@@ -610,7 +613,7 @@
       "soakNone":"Aucun",
       "soakLight":"Léger",
       "soakHeavy":"Fort",
-      "sorceryAvailableUsesLabel":"Utilisations disponibles",
+      "sorceryAvailableUsesLabel":"Disponibles",
       "sorceryEnchantmentHeader":"Enchantement minables",
       "sorcerySpellHeader":"Sortilèges",
       "specialLabel":"Spécial",
@@ -637,10 +640,11 @@
       "tabTalentsLabel":"Talents",
       "qualitiesLabel":"Qualités",
       "quantityLabel":"Quantiée",
-      "talentCategories":{
-         "off":"Offensif",
-         "def":"Défensif",
-         "int":"Intéractif"
+      "actionCategories": {
+        "off": "Offensive",
+        "def": "Défensive",
+        "int": "Interaction",
+        "mov": "Mouvement"
       },
       "talentLabel":"Talent",
       "talentActionTypeLabel":"Type d'action",
