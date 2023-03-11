@@ -1,21 +1,19 @@
-name: MasterDeployCI
-on:
-  push:
-    branches:
-      - main
+name: MaJ Zip
+on: [push]
 jobs:
-  build:
+  To-Zip:
     runs-on: ubuntu-latest
     steps:
-    - uses: actions/checkout@v1
-    - name: Create Release Folder
-      run: rsync -arv --exclude='.git/' --exclude='.github/' --exclude='.gitignore' . ./release
-    - name: Switch to Release Folder
-      run: |
-        cd release
-        ls -la
-    - name: Bump version and push tag
-      uses: anothrNick/github-tag-action@master
-      env:
-        GITHUB_TOKEN: ${{ secrets.TOKEN }}
-        REPO_OWNER: yannrousseaux
+      - name: Checkout 
+        uses: actions/checkout@v3
+      
+      - name: Create zip folder
+        run: zip -r -q foundry-vtt-module-conan-2d20-fr.zip folder
+          - name: Commit and push
+
+      - name: Commit and push
+        uses: EndBug/add-and-commit@v7
+        with:
+          add: '["foundry-vtt-module-conan-2d20-fr.zip"]'
+          message: 'My commit message'
+          push: true
