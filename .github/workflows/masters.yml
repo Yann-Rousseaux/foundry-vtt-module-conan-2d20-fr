@@ -28,9 +28,6 @@ jobs:
 
       - name: Commit and push
         uses: EndBug/add-and-commit@v7
-        env:
-          GITHUB_TOKEN: ${{ secrets.TOKEN }}
-          REPO_OWNER: yannrousseaux
         with:
           add: '["foundry-vtt-module-conan-2d20-fr.zip"]'
           message: 'Mise à jour du zip'
