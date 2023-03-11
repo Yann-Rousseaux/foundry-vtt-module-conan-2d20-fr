@@ -27,9 +27,6 @@ jobs:
           add: '["foundry-vtt-module-conan-2d20-fr.zip"]'
           message: 'Mise à jour du zip'
           push: true
-        env:
-          GITHUB_TOKEN: ${{ secrets.TOKEN }}
-          REPO_OWNER: yannrousseaux
 
       - name: Bump version and push tag
         uses: anothrNick/github-tag-action@master
