@@ -1,7 +1,10 @@
-name: MaJ Zip
-on: [push]
+name: MajZip
+on:
+  push:
+    branches:
+      - main
 jobs:
-  To-Zip:
+  build:
     runs-on: ubuntu-latest
     steps:
       - name: Checkout 
@@ -14,5 +17,5 @@ jobs:
         uses: EndBug/add-and-commit@v7
         with:
           add: '["foundry-vtt-module-conan-2d20-fr.zip"]'
-          message: 'My commit message'
+          message: 'Mise à jour du zip'
           push: true
