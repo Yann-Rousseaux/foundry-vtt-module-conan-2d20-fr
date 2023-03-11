@@ -22,14 +22,6 @@ jobs:
     steps:
       - name: Checkout 
         uses: actions/checkout@v3
-
-      - name: Remove File
-        uses: JesseTG/rm@v1.0.3
-        with:
-          path: foundry-vtt-module-conan-2d20-fr.zip
-        env:
-          GITHUB_TOKEN: ${{ secrets.TOKEN }}
-          REPO_OWNER: yannrousseaux
       
       - name: Create zip folder
         run: zip -r -q foundry-vtt-module-conan-2d20-fr.zip .
