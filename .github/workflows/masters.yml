@@ -1,4 +1,4 @@
-name: MasterDeployCI
+name: CreationZIP
 on:
   push:
     branches:
