@@ -595,6 +595,7 @@
       "reachLabel":"Reach",
       "renownLabel":"Renom",
       "renownCurrentLabel": "Actuel",
+      "RollDice": "Lancer les dés",
       "rollDamageLabel":"Jet de dommages",
       "rollMomentumSpendAssert":"Dépense/Gain",
       "rollMomentumSpendLabel":"Total des dépenses: ",
@@ -738,17 +739,17 @@
       "woundsTitle":"Blessures",
       "qualities":{
          "armor":{
-            "heav": "Lourde",
-            "nois": "Bruyante",
-            "very": "Très lourde",
+            "heav": "Lourd",
+            "nois": "Bruyant",
+            "very": "Très lourd",
             "frag": "Fragile",
-            "brit": "Brittle",
+            "brit": "Volumineux",
             "bulk": "Bulky",
-            "cool": "Cool",
+            "cool": "Frais",
             "cour": "Courage",
-            "apie": "Piercing X",
-            "warm": "Warm",
-            "inti": "Intimidating"
+            "apie": "Perforant X",
+            "warm": "Chaud",
+            "inti": "Intimidant"
          },
          "weapons":{
             "area": "Zone",
