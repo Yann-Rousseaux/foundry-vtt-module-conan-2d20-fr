@@ -1,7 +1,7 @@
 {
   "id": "conan2d20-french-localization",
   "title": "Conan 2D20 French Localization",
-  "version": "0.1.5",
+  "version": "0.1.6",
   "description": "Localisation française pour le jeu CONAN de Robert E. Howard. Voir la page du projet pour plus de détails.<br /> --- <br />French Localization for Robert E. Howard's Conan 2D20. See the Project Page for further details.",
   "compatibility": {
     "minimum": "10",
