@@ -379,10 +379,10 @@
       "itemLoads":"Charges",
       "kitSummary":"Résumé du lot",
       "kitTypes":{
-         "fac":"Installation",
-         "kit":"Lot",
+         "fac":"Bâtiment",
+         "kit":"Kit",
          "lib":"Bibliothèque",
-         "rel":"Recharge",
+         "rel":"Rechargeable",
          "res":"Ressource",
          "too":"Outil"
       },
@@ -655,7 +655,7 @@
       "talentActionTypeLabel":"Type d'action",
       "talentSkillLabel":"Compétence du talent",
       "talentCostLabel":"Coût du talent",
-      "talentPrereqLabel":"Pré-rerquis",
+      "talentPrereqLabel":"Pré-requis",
       "talentRequiresLabel":"Exigeances",
       "talentRankLabel":"Rang",
       "talentRankCountLabel":"Rangs",
